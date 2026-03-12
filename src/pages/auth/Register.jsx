@@ -24,6 +24,7 @@ export default function Register() {
           <p className="text-slate-400 text-sm leading-relaxed mb-6">
             Simper HRMS is an internal HR platform. New accounts are created by your
             HR administrator — self-registration is not available for security reasons.
+            demo user name admin@gmail.com pass admin@123
           </p>
 
           <div className="bg-surface-hover border border-surface-border rounded-xl p-4 mb-6 text-left space-y-3">
