@@ -1,12 +1,10 @@
 [build]
-  base    = "frontend"
   command = "npm install && npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
 
-# Redirect all routes to index.html for React Router SPA
 [[redirects]]
   from   = "/*"
   to     = "/index.html"
